@@ -16,7 +16,7 @@ function tsToIso(ts){
 
 document.onreadystatechange = function(){
 	document.querySelector("#snowflake").addEventListener("input", (e) => {
-		e.target.value = e.target.value.replace(/[^\d]/, '');
+		e.target.value = e.target.value.replace(/[^\d]/g, '');
 
 		let snowflake = BigInt(e.target.value);
 
