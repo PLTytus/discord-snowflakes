@@ -1,0 +1,22 @@
+* {
+	--font: #a1a1a1;
+	--bg: #383838;
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 5px;
+	background: var(--bg);
+	color: var(--font);
+	justify-content: center;
+	display: flex;
+}
+input {
+	width: 15rem;
+	background: #ffffff;
+	border: 2px inset #cfcfcf;
+	outline: none !important;
+}
+input[readonly] {
+	background: #d1d1d1;
+}

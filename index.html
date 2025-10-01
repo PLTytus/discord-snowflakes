@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Discord Snowflakes</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<script type="text/javascript" src="index.js"></script>
+		<link rel=stylesheet href="index.css">
+	</head>
+	<body>
+		<table>
+			<thead>
+				<tr><td><b>Snowflake (ID):</b></td><td><input type="text" pattern="^\d$" id="snowflake"></td></tr>
+			</thead>
+			<tbody>
+				<tr><td><b>Timestamp (s):</b></td><td><input type="text" id="tss" readonly></td></tr>
+				<tr><td><b>Timestamp (ms):</b></td><td><input type="text" id="tsms" readonly></td></tr>
+				<tr><td><b>ISO 8601:</b></td><td><input type="text" id="iso" readonly></td></tr>
+				<tr><td><b>Internal worker ID:</b></td><td><input type="text" id="wid" readonly></td></tr>
+				<tr><td><b>Internal process ID:</b></td><td><input type="text" id="pid" readonly></td></tr>
+				<tr><td><b>Increment:</b></td><td><input type="text" id="inc" readonly></td></tr>
+			</tbody>
+		</table>
+	</body>
+</html>
